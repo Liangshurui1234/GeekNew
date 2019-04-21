@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<!--梁书瑞-->
+   <CheckBox
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:checked="true"
+       android:text="下"
+       />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        android:minHeight="100dp"
+        android:maxWidth="100dp"
+        android:tint="@color/colorPrimaryDark"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:max="100"
+        android:progress="0"
+        android:visibility="visible"
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1000"
+        android:progress="100"
+        android:secondaryProgress="1"
+        android:progressDrawable="@drawable/ic_launcher_background"
+        android:thumb="@drawable/ic_launcher_foreground"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toast"
+        android:id="@+id/but"
+        />
+
+</LinearLayout>
